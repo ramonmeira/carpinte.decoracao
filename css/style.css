@@ -3,6 +3,10 @@ body {
 	color: white;
 }
 
+.principal{
+	padding: 30px;
+}
+
 h1 {
 	text-align: center;
 }
@@ -19,12 +23,37 @@ em strong {
 	color: rgb(220,0,0);
 }
 
+ul{
+	display: inline-block;
+}
+
+li{
+	text-decoration: none;
+}
+
+.product{
+	display: inline;
+}
+
+.product-info{
+	display: inline-block;
+	width: 25%;
+}
+
+ .itens{
+ 	font-style: italic;
+ }
+
 .disclaimer{
 	font-size: 11px;
 }
 
 img{
   width: 25%;
+}
+
+.image{
+  display: inline;
 }
 
 #logo{
