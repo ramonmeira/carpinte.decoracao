@@ -1,8 +1,3 @@
-body {
-	background-color: #EBA66B;
-	color: white;
-}
-
 .principal{
 	padding: 30px;
 }
@@ -13,10 +8,6 @@ body {
 
 .titulo-centralizado {
 	text-align: center;
-}
-
-p {
-	text-align: justify;
 }
 
 #missao {
@@ -35,30 +26,6 @@ li{
 	text-decoration: none;
 }
 
-.product{
-	display: inline;
-}
-
-.product-info{
-	display: inline-block;
-	width: 25%;
-}
-
- .itens{
- 	font-style: italic;
- }
-
-.disclaimer{
-	font-size: 11px;
-}
-
-img{
-  width: 23%;
-}
-
-.image{
-  display: inline;
-}
 
 #logo{
 	display: block;
