@@ -28,27 +28,52 @@ nav a {
 	text-decoration: none;
 }
 
-.product{
-	display: inline;
+.products{
+	width: 940px;
+	margin: 0 auto;	
+	padding: 40px 0;
 }
 
-.product-info{
+.products li{
 	display: inline-block;
-	width: 25%;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
 }
 
-.itens{
- 	font-style: italic;
- }
+.products h2{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.products li img{
+ 	width: 100%;
+}
+
+.products li p{
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.products li ul li{
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding: 0 0 0 20px;
+	box-sizing: border-box;
+}
 
 .disclaimer{
 	font-size: 11px;
+ 	font-style: italic;
 }
 
-.image img{
-  width: 23%;
-}
-
-.image{
-  display: inline;
+.price{
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
 }
