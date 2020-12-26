@@ -4,9 +4,6 @@ body {
 }
 
 #header {
-    /*
-    background: url("../images/bg.png");
-    */
     background-color: #bf814d;
 	padding: 20px 0;
 }
@@ -46,6 +43,22 @@ nav a:hover{
 	text-decoration: underline;
 }
 
+.banner a{
+	position: relative;
+}
+.banner img{
+	width: 100%;
+}
+
+.credits{
+	text-decoration: none;
+    color: #000000;
+    font-size: 0.3em;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+
 main {
     width: 940px;
     margin: 0 auto;
@@ -54,10 +67,8 @@ main {
 footer {
     text-align: center;
     padding: 20px 0;
-    /*
-    background: url("../images/bg.png");
-    */
     background-color: #bf814d;
+    width: 100%;
 }
 
 .copyright {

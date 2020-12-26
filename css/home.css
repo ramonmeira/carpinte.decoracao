@@ -1,13 +1,16 @@
-.principal{
-	padding: 30px;
+.principal p{
+	padding: 10px 0;
 }
 
-.titulo-principal{
-	padding-left: 20px;
-}
-
-.titulo-centralizado {
+.titulo-principal {
 	text-align: center;
+	font-size: 2em;
+	padding: 20px;
+}
+
+.titulo-beneficios {
+	text-align: center;
+	font-size: 1.5em;
 }
 
 #missao {
@@ -18,18 +21,12 @@ em strong {
 	color: rgb(220,0,0);
 }
 
-ul{
+.beneficios ul{
 	display: inline-block;
 }
 
-li{
+
+.beneficios li{
 	text-decoration: none;
-}
-
-
-#logo{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+	padding: 5px;
 }
