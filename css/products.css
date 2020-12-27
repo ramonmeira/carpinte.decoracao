@@ -23,8 +23,8 @@
 .products li:active {
     border-color: #C78C19; 
 	background-color: #EBA66B;
-    position: absolute;
-    bottom:0;
+	position: fixed;
+    top: 0;
     left: 35%;
 }
 
