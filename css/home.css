@@ -8,7 +8,7 @@
 	display: inline-block;
     vertical-align: middle;
     max-width: 42%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .linhas{
@@ -63,6 +63,7 @@
 
 .principal em strong{
 	color: rgb(220,0,0);
+	font-family: 'Lora', serif;
 }
 
 #missao {
@@ -74,6 +75,10 @@
 	font-size: 1.5em;
 	margin: 1em 0 1em;
 	clear: both;
+}
+
+.beneficios{
+	margin-bottom: 2em;
 }
 
 .beneficios ul{
